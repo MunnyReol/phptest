@@ -5,6 +5,6 @@ $obj = json_decode($data);
 $pubDate = $obj->publishedAt;
 $countAPI = $obj->subscriberCount;
 $timestamp = $obj->timestamp;
-$actualTimestamp = date() /1000
+$actualTimestamp = time() /1000
 echo $actualTimestamp;
 ?>
