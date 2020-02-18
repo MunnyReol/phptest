@@ -1,5 +1,5 @@
 <?php
 $channel = $_GET['c'];
-$data = file_get_contents('https://freewebtools.com/compteur-youtube/?channelId=');
+$data = file_get_contents('https://freewebtools.com/compteur-youtube/?channelId=tst');
 echo $data;
 ?>
